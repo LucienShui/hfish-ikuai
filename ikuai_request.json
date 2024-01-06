@@ -1,0 +1,11 @@
+{
+  "func_name": "ipgroup",
+  "action": "edit",
+  "param": {
+    "id": 1,
+    "group_name": "hfish-attack-ip-list",
+    "addr_pool": "",
+    "type": 0,
+    "comment": ""
+  }
+}
