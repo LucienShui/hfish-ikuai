@@ -12,5 +12,6 @@
    + `IKUAI_USERNAME`：iKuai 的用户名，比如 `admin`
    + `IKUAI_MD5PASSWORD`：iKuai 的密码的 md5 值，形如 `e10adc3949ba59abbe56e057f20f883e`
    + `IKUAI_API`：iKuai 的地址，比如 `http://192.168.1.1`
-3. 运行 `python3 main.py`
-4. 检查 IP 分组中是否包含了蜜罐系统检测到的 IP。如果包含，则在 ACL 中引用该条 IP 分组即可
+3. 前往 [github.com/Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) 下载 `Country.mmdb`，放至运行目录下
+4. 运行 `python3 main.py`
+5. 按照预期 IP 分组中应该包含了蜜罐系统检测到的 IP，在 ACL 中引用该 IP 分组即可
